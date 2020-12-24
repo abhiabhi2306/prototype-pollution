@@ -1,5 +1,8 @@
 # Prototype Pollution [Research  + Hands On Lab]
 
+![https://i.postimg.cc/sXN3Z7Gc/proto.jpg](https://i.postimg.cc/sXN3Z7Gc/proto.jpg)
+
+
 
 In prototype based languages like javascript, upon creation of new objects they do carry over the properties and methods of prototype ``object``.
 
