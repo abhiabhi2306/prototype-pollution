@@ -8,6 +8,7 @@ This lab environment helps you to try prototype pollution in practice, the aim i
 
 You can run it as a docker instance by executing the following commands :: 
   ```
+ $ npm install
  $ docker build -t webapp .
  $ docker run -p 80:80 -d webapp
   
@@ -19,7 +20,7 @@ You can run it as a docker instance by executing the following commands ::
 You can run it using node by executing the following commands ::
 
   ```
- $ cd webapp
+ $ npm install
  $ node app.js
   ```
   
