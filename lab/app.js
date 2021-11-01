@@ -70,8 +70,7 @@ app.post('/addnote', (req, res) => {
   }
 
   const note = {
-    // being a kinky developer.
-    emoji: '🤖',
+    randomtext: 'random dev text',
   };
 
   _.merge(note, req.body.note, {
